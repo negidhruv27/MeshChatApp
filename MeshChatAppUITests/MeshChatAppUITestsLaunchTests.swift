@@ -1,13 +1,13 @@
 //
-//  soft2UITestsLaunchTests.swift
-//  soft2UITests
+//  MeshChatAppUITestsLaunchTests.swift
+//  MeshChatAppUITests
 //
 //  Created by Dhruv Negi on 27/04/26.
 //
 
 import XCTest
 
-final class soft2UITestsLaunchTests: XCTestCase {
+final class MeshChatAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

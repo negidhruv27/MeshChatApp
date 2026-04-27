@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_meshchatapp._tcp</string>
+        <string>_meshchatapp._udp</string>
+    </array>
+
+    <!-- ✅ Required for MultipeerConnectivity on iOS 14+ -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>MeshChatApp uses your local network to find and connect to nearby devices for offline messaging.</string>
+
+    <!-- ✅ Required — MPC uses Bluetooth for peer discovery -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>MeshChatApp uses Bluetooth to discover nearby devices for offline peer-to-peer messaging.</string>
+
+    <!-- ✅ Removed nearby-interaction (UWB only), removed bluetooth-central/peripheral (CoreBluetooth only) -->
+    <!-- No UIBackgroundModes needed for foreground-only MPC use -->
+</dict>
+</plist>

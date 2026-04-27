@@ -12,37 +12,50 @@
 			containerPortal = DFB7E45A2F9F2810003D8558 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DFB7E4612F9F2810003D8558;
-			remoteInfo = soft2;
+			remoteInfo = MeshChatApp;
 		};
 		DFB7E47C2F9F2811003D8558 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DFB7E45A2F9F2810003D8558 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DFB7E4612F9F2810003D8558;
-			remoteInfo = soft2;
+			remoteInfo = MeshChatApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DFB7E4622F9F2810003D8558 /* soft2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soft2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFB7E4712F9F2811003D8558 /* soft2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soft2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFB7E47B2F9F2811003D8558 /* soft2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soft2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB7E4622F9F2810003D8558 /* MeshChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB7E4712F9F2811003D8558 /* MeshChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB7E47B2F9F2811003D8558 /* MeshChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DFB7E48F2F9F28BB003D8558 /* Exceptions for "MeshChatApp" folder in "MeshChatApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DFB7E4612F9F2810003D8558 /* MeshChatApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DFB7E4642F9F2810003D8558 /* soft2 */ = {
+		DFB7E4642F9F2810003D8558 /* MeshChatApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = soft2;
+			exceptions = (
+				DFB7E48F2F9F28BB003D8558 /* Exceptions for "MeshChatApp" folder in "MeshChatApp" target */,
+			);
+			path = MeshChatApp;
 			sourceTree = "<group>";
 		};
-		DFB7E4742F9F2811003D8558 /* soft2Tests */ = {
+		DFB7E4742F9F2811003D8558 /* MeshChatAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = soft2Tests;
+			path = MeshChatAppTests;
 			sourceTree = "<group>";
 		};
-		DFB7E47E2F9F2811003D8558 /* soft2UITests */ = {
+		DFB7E47E2F9F2811003D8558 /* MeshChatAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = soft2UITests;
+			path = MeshChatAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +88,9 @@
 		DFB7E4592F9F2810003D8558 = {
 			isa = PBXGroup;
 			children = (
-				DFB7E4642F9F2810003D8558 /* soft2 */,
-				DFB7E4742F9F2811003D8558 /* soft2Tests */,
-				DFB7E47E2F9F2811003D8558 /* soft2UITests */,
+				DFB7E4642F9F2810003D8558 /* MeshChatApp */,
+				DFB7E4742F9F2811003D8558 /* MeshChatAppTests */,
+				DFB7E47E2F9F2811003D8558 /* MeshChatAppUITests */,
 				DFB7E4632F9F2810003D8558 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +98,9 @@
 		DFB7E4632F9F2810003D8558 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFB7E4622F9F2810003D8558 /* soft2.app */,
-				DFB7E4712F9F2811003D8558 /* soft2Tests.xctest */,
-				DFB7E47B2F9F2811003D8558 /* soft2UITests.xctest */,
+				DFB7E4622F9F2810003D8558 /* MeshChatApp.app */,
+				DFB7E4712F9F2811003D8558 /* MeshChatAppTests.xctest */,
+				DFB7E47B2F9F2811003D8558 /* MeshChatAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFB7E4612F9F2810003D8558 /* soft2 */ = {
+		DFB7E4612F9F2810003D8558 /* MeshChatApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFB7E4852F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2" */;
+			buildConfigurationList = DFB7E4852F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatApp" */;
 			buildPhases = (
 				DFB7E45E2F9F2810003D8558 /* Sources */,
 				DFB7E45F2F9F2810003D8558 /* Frameworks */,
@@ -108,18 +121,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DFB7E4642F9F2810003D8558 /* soft2 */,
+				DFB7E4642F9F2810003D8558 /* MeshChatApp */,
 			);
-			name = soft2;
+			name = MeshChatApp;
 			packageProductDependencies = (
 			);
-			productName = soft2;
-			productReference = DFB7E4622F9F2810003D8558 /* soft2.app */;
+			productName = MeshChatApp;
+			productReference = DFB7E4622F9F2810003D8558 /* MeshChatApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DFB7E4702F9F2811003D8558 /* soft2Tests */ = {
+		DFB7E4702F9F2811003D8558 /* MeshChatAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFB7E4882F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2Tests" */;
+			buildConfigurationList = DFB7E4882F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatAppTests" */;
 			buildPhases = (
 				DFB7E46D2F9F2811003D8558 /* Sources */,
 				DFB7E46E2F9F2811003D8558 /* Frameworks */,
@@ -131,18 +144,18 @@
 				DFB7E4732F9F2811003D8558 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				DFB7E4742F9F2811003D8558 /* soft2Tests */,
+				DFB7E4742F9F2811003D8558 /* MeshChatAppTests */,
 			);
-			name = soft2Tests;
+			name = MeshChatAppTests;
 			packageProductDependencies = (
 			);
-			productName = soft2Tests;
-			productReference = DFB7E4712F9F2811003D8558 /* soft2Tests.xctest */;
+			productName = MeshChatAppTests;
+			productReference = DFB7E4712F9F2811003D8558 /* MeshChatAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DFB7E47A2F9F2811003D8558 /* soft2UITests */ = {
+		DFB7E47A2F9F2811003D8558 /* MeshChatAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFB7E48B2F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2UITests" */;
+			buildConfigurationList = DFB7E48B2F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatAppUITests" */;
 			buildPhases = (
 				DFB7E4772F9F2811003D8558 /* Sources */,
 				DFB7E4782F9F2811003D8558 /* Frameworks */,
@@ -154,13 +167,13 @@
 				DFB7E47D2F9F2811003D8558 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				DFB7E47E2F9F2811003D8558 /* soft2UITests */,
+				DFB7E47E2F9F2811003D8558 /* MeshChatAppUITests */,
 			);
-			name = soft2UITests;
+			name = MeshChatAppUITests;
 			packageProductDependencies = (
 			);
-			productName = soft2UITests;
-			productReference = DFB7E47B2F9F2811003D8558 /* soft2UITests.xctest */;
+			productName = MeshChatAppUITests;
+			productReference = DFB7E47B2F9F2811003D8558 /* MeshChatAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DFB7E45D2F9F2810003D8558 /* Build configuration list for PBXProject "soft2" */;
+			buildConfigurationList = DFB7E45D2F9F2810003D8558 /* Build configuration list for PBXProject "MeshChatApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFB7E4612F9F2810003D8558 /* soft2 */,
-				DFB7E4702F9F2811003D8558 /* soft2Tests */,
-				DFB7E47A2F9F2811003D8558 /* soft2UITests */,
+				DFB7E4612F9F2810003D8558 /* MeshChatApp */,
+				DFB7E4702F9F2811003D8558 /* MeshChatAppTests */,
+				DFB7E47A2F9F2811003D8558 /* MeshChatAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		DFB7E4732F9F2811003D8558 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DFB7E4612F9F2810003D8558 /* soft2 */;
+			target = DFB7E4612F9F2810003D8558 /* MeshChatApp */;
 			targetProxy = DFB7E4722F9F2811003D8558 /* PBXContainerItemProxy */;
 		};
 		DFB7E47D2F9F2811003D8558 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DFB7E4612F9F2810003D8558 /* soft2 */;
+			target = DFB7E4612F9F2810003D8558 /* MeshChatApp */;
 			targetProxy = DFB7E47C2F9F2811003D8558 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,6 +413,10 @@
 				DEVELOPMENT_TEAM = CV3236H87K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeshChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshChatApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MeshChatApp uses your local network to find and connect to nearby devices for offline messaging.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -432,6 +449,10 @@
 				DEVELOPMENT_TEAM = CV3236H87K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeshChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshChatApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MeshChatApp uses your local network to find and connect to nearby devices for offline messaging.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -464,7 +485,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -472,7 +493,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soft2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soft2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeshChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeshChatApp";
 			};
 			name = Debug;
 		};
@@ -486,7 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -494,7 +515,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soft2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soft2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeshChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeshChatApp";
 			};
 			name = Release;
 		};
@@ -506,7 +527,7 @@
 				DEVELOPMENT_TEAM = CV3236H87K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -514,7 +535,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = soft2;
+				TEST_TARGET_NAME = MeshChatApp;
 			};
 			name = Debug;
 		};
@@ -526,7 +547,7 @@
 				DEVELOPMENT_TEAM = CV3236H87K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.soft2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvnegi.software.meshchatapp.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -534,14 +555,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = soft2;
+				TEST_TARGET_NAME = MeshChatApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFB7E45D2F9F2810003D8558 /* Build configuration list for PBXProject "soft2" */ = {
+		DFB7E45D2F9F2810003D8558 /* Build configuration list for PBXProject "MeshChatApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB7E4832F9F2811003D8558 /* Debug */,
@@ -550,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFB7E4852F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2" */ = {
+		DFB7E4852F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB7E4862F9F2811003D8558 /* Debug */,
@@ -559,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFB7E4882F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2Tests" */ = {
+		DFB7E4882F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB7E4892F9F2811003D8558 /* Debug */,
@@ -568,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFB7E48B2F9F2811003D8558 /* Build configuration list for PBXNativeTarget "soft2UITests" */ = {
+		DFB7E48B2F9F2811003D8558 /* Build configuration list for PBXNativeTarget "MeshChatAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB7E48C2F9F2811003D8558 /* Debug */,

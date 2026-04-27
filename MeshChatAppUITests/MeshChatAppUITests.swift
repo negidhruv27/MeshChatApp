@@ -1,13 +1,13 @@
 //
-//  soft2UITests.swift
-//  soft2UITests
+//  MeshChatAppUITests.swift
+//  MeshChatAppUITests
 //
 //  Created by Dhruv Negi on 27/04/26.
 //
 
 import XCTest
 
-final class soft2UITests: XCTestCase {
+final class MeshChatAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
