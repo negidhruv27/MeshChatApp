@@ -50,14 +50,3 @@ This project was created to explore:
 * Real-time device discovery
 * Distributed communication architectures
 * Local-first application development
-
-Future Improvements
-
-* Group chat support
-* Mesh relay forwarding between devices
-* End-to-end encryption
-* File and image sharing
-* Voice messaging
-* Background reconnection handling
-* Android interoperability
-* Message persistence and synchronization
